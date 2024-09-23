@@ -1,0 +1,187 @@
+name: flutter_application_1
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.4
+  share_plus: ^10.0.2
+  image_gallery_saver: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  assets:
+      - lib\assets\images\75b7fc3d-604c-418b-b222-927e4f7274b7.jpg
+      - lib\assets\images\79a7b2b2-0d18-4d40-a737-398ecdacf770.jpg
+      - lib\assets\images\4014.jpg
+      - lib\assets\images\10450.jpg
+      - lib\assets\images\14297.jpg
+      - lib\assets\images\15016.jpg
+      - lib\assets\images\15321.jpg
+      - lib\assets\images\18020.jpg
+      - lib\assets\images\242158-P3EN56-623.jpg
+      - lib\assets\images\3493556.jpg
+      - lib\assets\images\3557891.jpg
+      - lib\assets\images\4654656.jpg
+      - lib\assets\images\5433025.jpg
+      - lib\assets\images\be82e296-ddc4-444e-b8b0-ab7be4f9c487.jpg
+      - lib\assets\images\SL-092721-45860-36.jpg
+      - lib\assets\frames\beautiful-hand-draw-floral-wedding-card-template.png
+      - lib\assets\frames\christmas-decorative-frame.png
+      - lib\assets\frames\decorative-border.png
+      - lib\assets\frames\watercolor-boho-frame-design.png
+      - lib\assets\templates\diwali\8516512d-5364-456a-8dac-8923ff9880db.jpeg
+      - lib\assets\templates\diwali\Diwali Wishes Background.jpeg
+      - lib\assets\templates\diwali\Download premium vector of Ganesha Diwali festival background vector by Techi about ganesha, diwali, ganesh, indian, and diwali illustration 1180544.jpeg
+      - lib\assets\templates\diwali\Free Vector _ Elegant Diwali background with oil lamps design.jpeg
+      - lib\assets\templates\diwali\welcome.jpeg
+      - lib\assets\templates\holi\Colorful Holi Photo Editing CB Picsart Background New _ CbBackgroundhd.jpeg
+      - lib\assets\templates\holi\Asiatogel88 Pusat Hiburan Permainanan Online dengan Sentuhan Asia.jpeg
+      - lib\assets\templates\holi\Free  Holi Card Template Image.jpeg
+      - lib\assets\templates\holi\Free  Holi Card.jpeg
+      - lib\assets\templates\holi\Free Photo Mixed Holi Color And Pink Powder Colors Background With Copyspace Wallpaper Image For Free Download - Pngtree.jpeg
+      - lib\assets\templates\holi\Holi Festival Background Square Colorful Border Wallpaper Image For Free Download - Pngtree.jpeg
+      - lib\assets\templates\holi\Malermester Color Screen Splash Holi Happy Clipart - Holi Colours Transparent Background, HD Png Download , Transparent Png Image - PNGitem.jpeg
+      - lib\assets\templates\navratri\Durga Puja Festival Navratri Border, Navratri, Durga Puja, Durga PNG and Vector with Transparent Background for Free Download.jpeg
+      - lib\assets\templates\navratri\f7037a9a-60e8-4fa8-b465-43dfa1d67923.jpeg
+      - lib\assets\templates\navratri\Happy Navratri And Dandiya Sticks Frame, Navratri, Dandiya Sticks, Happy Navratri PNG and Vector with Transparent Background for Free Download.jpeg
+      - lib\assets\templates\navratri\iPhone 5 Wallpaper Orange Pattern 06 _ iPhone 5….jpeg
+      - lib\assets\templates\navratri\Orange Red Durga Puja Background, Wallpaper, Puya Festival, Durga Puja Background Image And Wallpaper for Free Download.jpeg
+      - lib\assets\templates\navratri\Pin by vikas zinzuwadia on Ambica _ Navratri wishes, Happy navratri images, Happy navratri wishes.jpeg
+      - lib\assets\templates\navratri\Premium Vector _ Illustration Of Indian Couple Performing Dance With Dhol Instrument.jpeg
+      - lib\assets\templates\janmastami\40d3168f-07a8-4763-9edf-be94b334e496.jpeg
+      - lib\assets\templates\janmastami\45aa71a7-bf0f-41de-9c93-73dc598ca678.jpeg
+      - lib\assets\templates\janmastami\Creating Peacock Design Background Wallpaper Image For Free Download - Pngtree.jpeg
+      - lib\assets\templates\janmastami\fa78932f-ab27-4c5a-9ebe-ff46009c72ab.jpeg
+      - lib\assets\templates\janmastami\Free Vector _ Beautiful indian festival happy janmashtami background.jpeg
+      - lib\assets\templates\raksha_bandhan\89d75e95-2c90-4cd5-84b3-5c3d67c6009d.jpeg
+      - lib\assets\templates\raksha_bandhan\Free Vector _ Stylish raksha bandhan rakhi festival design background.jpeg
+      - lib\assets\templates\raksha_bandhan\Free Vector _ Traditional raksha bandhan wishes card with diya and rakhi.jpeg
+      - lib\assets\templates\raksha_bandhan\Indian Brothers And Sisters Day Purple Orange Exquisite Accessories Creative Pattern Background Wallpaper Image For Free Download - Pngtree.jpeg
+      - lib\assets\templates\raksha_bandhan\Raksha Bandhan Background Wallpaper at Sandrawilliams.jpeg
+      - lib\assets\templates\mahasankrati\ASIATOGEL88 PUSAT GAMING ONLINE DENGAN PERMAINAN TERLENGKAP.jpeg
+      - lib\assets\templates\mahasankrati\Download Makar Sankranti Background for free.jpeg
+      - lib\assets\templates\mahasankrati\Indian Harvest Festival Gorgeous Prayer Harvest Background Wallpaper Image For Free Download - Pngtree.jpeg
+      - lib\assets\templates\mahasankrati\Makar Sankranti Indian Harvest Festival Kite Decoration Orange Background Wallpaper Image For Free Download - Pngtree.jpeg
+      - lib\assets\templates\mahasankrati\Makar Sankranti Kites Vector Hd Images, Makar Sankranti Kites Mandala Background, Colorful Kites, Sankranti, Mandala PNG Image For Free Download.jpeg
+      - lib\assets\templates\pongal\Bright Petals Ring Candles Indian Diwali Background Wallpaper Image For Free Download - Pngtree.jpeg
+      - lib\assets\templates\pongal\Download Happy Pongal Harvest Festival Background for free.jpeg
+      - lib\assets\templates\pongal\Indian Harvest Festival Gorgeous Prayer Harvest Background Wallpaper Image For Free Download - Pngtree.jpeg
+      - lib\assets\templates\pongal\Premium Vector _ Happy Pongal Concept With Mud Pots Full Of Traditional Dish (Rice),Yellow Watercolor Effect Temple On White Background_.jpeg
+      - lib\assets\templates\pongal\Premium Vector _ Happy pongal wishes or greeting background design_.jpeg
+      - lib\assets\templates\baisakhi\6bef310d-2395-4c69-84fc-92e45b004f39.jpeg
+      - lib\assets\templates\baisakhi\BJP Bhagwa background HD texture image.jpeg
+      - lib\assets\templates\baisakhi\Marriage invitation.jpeg
+      - lib\assets\templates\onam\b21f2b48-d62b-4408-9839-d3ef09a2ea5a.jpeg
+      - lib\assets\templates\onam\Background for happy onam festival south india vector image on VectorStock.jpeg
+      - lib\assets\templates\onam\Hindu God Background HD download for free.jpeg
+      - lib\assets\templates\lohri\Download Lohri Festival Background for free.jpeg
+      - lib\assets\templates\mahashivratri\dd1dce7f-6425-468b-98fb-6530f17fae7e.jpeg
+      - lib\assets\templates\mahashivratri\eabb509a-8e98-42a9-bbc7-eaf90086b0e2.jpeg
+      - lib\assets\templates\mahashivratri\Maha Shivratri.jpeg
+      - lib\assets\templates\mahashivratri\Mahadev Status.jpeg
+      - lib\assets\icons\format (1).png
+      - lib\assets\icons\align-left.png
+      - lib\assets\icons\align-right.png
+
+
+      
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
+  fonts:
+    - family: matemasie
+      fonts:
+        - asset: lib/assets/fonts/matemasie-Regular.ttf
+    - family: protestGuerrilla
+      fonts:
+        - asset: lib\assets\fonts\ProtestGuerrilla-Regular.ttf
+    - family: robotoMono
+      fonts:
+        - asset: lib\assets\fonts\RobotoMono-Medium.ttf
+    - family: sofadiOne
+      fonts:
+        - asset: lib\assets\fonts\SofadiOne-Regular.ttf
+    - family: jacquesFrancoisShadow
+      fonts:
+        - asset: lib\assets\fonts\JacquesFrancoisShadow-Regular.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
